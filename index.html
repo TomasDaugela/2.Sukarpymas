@@ -4,32 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+            header {
+                width: 100%;
+                border-bottom: gray solid;
+                display: inline-block;
+            }
+                nav {
+                    text-align: center;
+                    float: right;
+                    display: inline-block;
+                    text-align: center;
+                    margin-right: 35%;
+                    display: inline-block;
+                }
+                     nav > div > img {
+                        display: inline-block;
+                        width: 120px;
+                     }
+                     nav > a {
+                        display: inline-block;
+                        padding: 5px;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 80%;
+
+                     }
+                header > div {
+                    display: inline-block;
+                    float: right;
+            
+                }
+                header > a {
+                    display: inline-block;
+                    margin-top: 20px;
+                }
+        main {
+            text-align: center;
+            width: 100%;
+        }
+            main > article {
+                width: 80%;
+                margin-left: 70px;
+                display: inline-block;
+            }
+    </style>
 </head>
 <body>
-    <virsutinistulpelis>
+    <header>
         <a href="#">
-             <img border="0" src="menu.PNG" alt="menu"> 
+             <img src="menu.PNG" alt="menu"> 
         </a>
-        <menu>
-            <img src="royal.PNG" alt="royal canin nuotrauka">
-            <a href="#">Kates</a>
-             <a href="#">Sunys</a>
-            <a href="#">Pritaikyta mityba</a>
-             <a href="#">apie mus</a>
-             <a href="#">kur nusipirkti</a>
-
-        </menu>
-        <ieskoti>
+        <div>
+            <a href="#">
+                <img src="gps.PNG" alt="gps"></a>
              <a href="#">
-                 <img border="0" src="gps.PNG" alt="gps"> 
-              </a>
-              <a href="#">
-                  <img border="0" src="search.PNG" alt="ieskoti"> 
-             </a>
-         </ieskoti>
+                 <img src="search.PNG" alt="ieskoti"></a>
+       </div>
+        <nav>
+            <div>
+                <img src="royal.PNG" alt="royal canin nuotrauka">
+            </div>
             
-    </virsutinistulpelis>
-    <pagrindinis>
+            <a href="#">Katės</a>
+             <a href="#">Šunys</a>
+             <a href="#">Pritaikyta mityba</a>
+             <a href="#">Apie mus</a>
+             <a href="#">Kur nusipirkti</a>
+
+        </nav>
+            
+        </header>
+    <main>
 
         <h1>
             Kaip rūpintis senstančia kate
@@ -37,20 +87,20 @@
 
         <img src="kate.PNG" alt="kates nuotrauka">
 
-        <tekstas>
+        <article>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                  Fuga, doloremque tenetur! Labore reiciendis consequatur a,
                   quae saepe explicabo cupiditate quisquam aliquam facilis nam
                    placeat obcaecati assumenda iure recusandae velit minima.
             </p>
-            <p>
+            <p2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Voluptatum eligendi error quam esse cumque veritatis a maiores 
                  laudantium culpa blanditiis.
-            </p>
-        </tekstas>
+            </p2>
+        </article>
         
-    </pagrindinis>
+    </main>
 </body>
 </html>
